@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <!-- <link rel="stylesheet" href="static/css/animate.min.css"> -->
+    <link rel="stylesheet" href="static/css/index.css" />
+    <title>dress up your room</title>
+  </head>
+
+  <body style="margin: 0; padding: 0" id="body">
+    <div id="loading">
+      <img src="./static/images/bg2.png" class="bg" alt="" />
+      <img src="./static/images/popo.gif" class="popo" alt="" />
+      <img src="./static/images/disco.gif" class="left disco" alt="" />
+      <img src="./static/images/disco.gif" class="right disco" alt="" />
+      <img src="./static/images/l.gif" class="info top" alt="" />
+      <img src="./static/images/b.gif" class="info bottom" alt="" />
+    </div>
+    <div id="background" unselectable="on">
+      <img src="static/images/bg.png" class="stretch" alt="" />
+      <!-- 窗户 -->
+      <div class="drag chuanghu" style="top: 33%; left: 51.6%"><img src="static/images/窗户/家具_0012s_0002_山村.png" /></div>
+      <div class="drag chuanghu" style="width: 9rem; top: 36%; left: 51.6%"><img src="static/images/窗户/家具_0012s_0001_夜景.png" /></div>
+      <div class="drag chuanghu" style="width: 9rem"><img src="static/images/窗户/家具_0012s_0000_海景.png" /></div>
+      <!-- 床 -->
+      <div class="drag chuang"><img src="static/images/床/家具_0008s_0007_白色床.png" /></div>
+      <div class="drag chuang"><img src="static/images/床/家具_0008s_0006_床.png" /></div>
+      <div class="drag chuang"><img src="static/images/床/家具_0008s_0005_床1.png" /></div>
+      <div class="drag chuang"><img src="static/images/床/家具_0008s_0004_床的副本.png" /></div>
+      <div class="drag chuang" style="width: 16rem; top: 42.2%; left: 32.5%"><img src="static/images/床/家具_0008s_0003_未命名作品-107.png" /></div>
+      <div class="drag chuang"><img src="static/images/床/家具_0008s_0002_床3.png" /></div>
+      <div class="drag chuang"><img src="static/images/床/家具_0008s_0001_美乐辰旗舰店-(1059).png" /></div>
+      <div class="drag chuang"><img src="static/images/床/家具_0008s_0000_蓝色床.png" /></div>
+
+      <!-- 床上装饰 -->
+      <div class="drag cszs" style="top: 42%;left: 37%;"><img src="static/images/床上装饰/家具_0003s_0005_鞋子花.png" /></div>
+      <div class="drag cszs"  style="width: 1.6rem;"><img src="static/images/床上装饰/家具_0003s_0004_未命名作品-107的副本.png" /></div>
+      <div class="drag cszs"><img src="static/images/床上装饰/家具_0003s_0003_未命名作品-107的副本-2.png" /></div>
+      <div class="drag cszs"  style="width: 1.5rem;"><img src="static/images/床上装饰/家具_0003s_0000_亲亲娃.png" /></div>
+      <div class="drag cszs" style="width: 5rem"><img src="static/images/床上装饰/家具_0003s_0001_玩偶.png" /></div>
+
+      <!-- 地毯 -->
+      <div class="drag ditan"><img src="static/images/地毯/家具_0009s_0007_青森素材-(932).png" /></div>
+      <div class="drag ditan"><img src="static/images/地毯/家具_0009s_0006_青森素材-(944).png" /></div>
+      <div class="drag ditan"><img src="static/images/地毯/家具_0009s_0005_青森素材-(944).png" /></div>
+      <div class="drag ditan"><img src="static/images/地毯/家具_0009s_0004_青森素材-(959).png" /></div>
+      <div class="drag ditan"><img src="static/images/地毯/家具_0009s_0003_青森素材-(930).png" /></div>
+      <div class="drag ditan"><img src="static/images/地毯/家具_0009s_0002_青森素材-(996).png" /></div>
+      <div class="drag ditan"><img src="static/images/地毯/家具_0009s_0001_青森素材-(96).png" /></div>
+      <div class="drag ditan"><img src="static/images/地毯/家具_0009s_0000_青森素材-(964).png" /></div>
+
+      <!-- 床头柜 -->
+      <div class="drag chuangtou" style="width: 6rem"><img src="static/images/床头柜/家具_0011s_0003_美乐辰旗舰店-(705).png" /></div>
+      <div class="drag chuangtou" style="width: 6rem"><img src="static/images/床头柜/家具_0011s_0002_桌子.png" /></div>
+      <div class="drag chuangtou" style="width: 5rem"><img src="static/images/床头柜/家具_0011s_0001_床头柜1.png" /></div>
+      <div class="drag chuangtou"><img src="static/images/床头柜/家具_0011s_0000_蓝色桌子.png" /></div>
+
+      <!-- 床头灯 -->
+
+      <div class="drag chuangtoudeng"><img src="static/images/台灯/家具_0004s_0006_美乐辰旗舰店-(784).png" /></div>
+      <div class="drag chuangtoudeng" style="width: 3rem"><img src="static/images/台灯/家具_0004s_0005_美乐辰旗舰店-(825).png" /></div>
+      <div class="drag chuangtoudeng" style="width: 4rem"><img src="static/images/台灯/家具_0004s_0004_美乐辰旗舰店-(836).png" /></div>
+      <div class="drag chuangtoudeng"><img src="static/images/台灯/家具_0004s_0003_美乐辰旗舰店-(840).png" /></div>
+      <div class="drag chuangtoudeng"><img src="static/images/台灯/家具_0004s_0002_美乐辰旗舰店-(928).png" /></div>
+      <div class="drag chuangtoudeng"><img src="static/images/台灯/家具_0004s_0001_美乐辰旗舰店-(938).png" /></div>
+      <div class="drag chuangtoudeng"><img src="static/images/台灯/家具_0004s_0000_绿色灯.png" /></div>
+
+      <!-- 吊灯 -->
+      <div class="drag diaodeng"><img src="static/images/吊灯/家具_0005s_0002_美乐辰旗舰店-(450).png" /></div>
+      <div class="drag diaodeng"><img src="static/images/吊灯/家具_0005s_0001_美乐辰旗舰店-(616).png" /></div>
+      <div class="drag diaodeng"><img src="static/images/吊灯/家具_0005s_0000_美乐辰旗舰店-(664).png" /></div>
+
+      <!-- 柜子 -->
+      <div class="drag yigui" style="top: 30%; width: 6.3rem"><img src="static/images/衣柜/家具_0001s_0004_美乐辰旗舰店-(992).png" /></div>
+      <div class="drag yigui" style="top: 31%; width: 6.3rem"><img src="static/images/衣柜/家具_0001s_0003_美乐辰旗舰店-(976).png" /></div>
+      <div class="drag yigui" style="top: 30%; width: 6.3rem"><img src="static/images/衣柜/家具_0001s_0002_美乐辰旗舰店-(987).png" /></div>
+      <div class="drag yigui"><img src="static/images/衣柜/家具_0001s_0001_衣柜新.png" /></div>
+      <div class="drag yigui"><img src="static/images/衣柜/家具_0001s_0000_衣柜2.png" /></div>
+      <!-- 落地镜子 -->
+      <div class="drag luodijing" style="width: 3.2rem; left: 65%"><img src="static/images/落地镜子/家具_0006s_0002_美乐辰旗舰店-(365).png" /></div>
+      <div class="drag luodijing"><img src="static/images/落地镜子/家具_0006s_0000_美乐辰旗舰店-(373).png" /></div>
+
+      <!-- 海报 -->
+      <div class="drag haiabao" style="width: 3.7rem;top: 32%; left: 84%"><img src="static/images/cs.gif" /></div>
+      <div class="drag haiabao" style="top: 34%; left: 84%"><img src="static/images/disco.gif" /></div>
+      <div class="drag haiabao" style="top: 36%; left: 87%"><img src="static/images/墙面画框海报/家具_0010s_0002_u=1432927308,3207398827&fm=26&gp=0.png" /></div>
+      <div class="drag haiabao"><img src="static/images/墙面画框海报/家具_0010s_0001_u=2034600524,3179168122&fm=26&gp=0.png" /></div>
+      <div class="drag haiabao" style="width: 3.7rem;"><img src="static/images/墙面画框海报/家具_0010s_0000_-vv.png" /></div>
+
+      <!-- 沙发椅子 -->
+      <div class="drag shafa" style="width: 16rem; top: 70%; left:77%"><img src="static/images/沙发椅子/家具_0000s_0009_美乐辰旗舰店-(142).png" /></div>
+      <div class="drag shafa" style="width: 6rem"><img src="static/images/沙发椅子/家具_0000s_0008_美乐辰旗舰店-(839).png" /></div>
+      <div class="drag shafa"><img src="static/images/沙发椅子/家具_0000s_0007_美乐辰旗舰店-(1112).png" /></div>
+      <div class="drag shafa" style="width: 9rem"><img src="static/images/沙发椅子/家具_0000s_0006_timg.png" /></div>
+      <div class="drag shafa" style="width: 14rem; top: 70%; left:77%"><img src="static/images/沙发椅子/家具_0000s_0005_美乐辰旗舰店-(73).png" /></div>
+      <div class="drag shafa"><img src="static/images/沙发椅子/家具_0000s_0003_椅子1.png" /></div>
+      <div class="drag shafa" style="width: 6rem"><img src="static/images/沙发椅子/家具_0000s_0002_炫酷椅子1.png" /></div>
+      <div class="drag shafa" style="width: 7rem;top: 70.6%;left: 81%;"><img src="static/images/沙发椅子/家具_0000s_0001_炫酷椅子.png" /></div>
+      <div class="drag shafa" style="width: 7.5rem;"><img src="static/images/沙发椅子/家具_0000s_0000_粉色沙发.png" /></div>
+
+      <!-- 墙面镜子 -->
+      <div class="drag qiangjing"><img src="static/images/墙面镜子/家具_0006s_0004_镜子.png" /></div>
+      <div class="drag qiangjing"><img src="static/images/墙面镜子/家具_0006s_0003_美乐辰旗舰店-(353).png" /></div>
+      <div class="drag qiangjing"><img src="static/images/墙面镜子/家具_0006s_0001_美乐辰旗舰店-(372).png" /></div>
+
+      <!-- 书桌 -->
+      <div class="drag shuzhuo" style="width: 8rem; top: 55%"><img src="static/images/书桌/家具_0007s_0003_桌子黑.png" /></div>
+      <div class="drag shuzhuo" style="width: 8rem; top: 55%"><img src="static/images/书桌/家具_0007s_0002_电脑桌3.png" /></div>
+      <div class="drag shuzhuo"><img src="static/images/书桌/家具_0007s_0001_电脑桌4.png" /></div>
+      <div class="drag shuzhuo"><img src="static/images/书桌/家具_0007s_0000_电脑桌2.png" /></div>
+
+      <!-- 装饰 -->
+      <div class="drag zhuangshi"><img src="static/images/桌子装饰/家具_0003s_0007_装饰2.png" /></div>
+      <div class="drag zhuangshi"><img src="static/images/桌子装饰/家具_0003s_0006_装饰1.png" /></div>
+      <div class="drag zhuangshi"><img src="static/images/桌子装饰/家具_0003s_0002_日历.png" /></div>
+      <div class="drag zhuangshi"><img src="static/images/桌子装饰/家具_0002s_0004_表1.png" /></div>
+      <div class="drag zhuangshi"><img src="static/images/桌子装饰/家具_0002s_0003_瓷杯.png" /></div>
+      <div class="drag zhuangshi"><img src="static/images/桌子装饰/家具_0002s_0002_表.png" /></div>
+      <div class="drag zhuangshi" style="width: 4.5rem;"><img src="static/images/桌子装饰/家具_0002s_0000_；，‘.png" /></div>
+
+      <!-- 视频装饰 -->
+      <div class="drag shipin"><video src="static/video/nct（已转换）.webm" muted autoplay loop></video></div>
+      <div class="drag shipin"><video src="static/video/小虎队（已转换）.webm" muted autoplay loop></video></div>
+      <div class="drag shipin" style="width: 13rem;top: 48%;"><video src="static/video/新闻（已转换）.webm" muted autoplay loop></video></div>
+    </div>
+    <script src="./static/js/main.js"></script>
+    <script type="text/javascript" async src="static/js/ga.js"></script>
+    <script src="static/js/jquery-1.4.2.min.js"></script>
+    <script src="static/js/jquery.event.drag-2.0.min.js"></script>
+    <script src="static/js/jquery.event.drop-2.0.min.js"></script>
+    <script src="static/js/excanvas.min.js"></script>
+    <script type="application/javascript">
+      $(document).ready(function () {
+        $('#loading').click(function () {
+          $('#loading').hide()
+          $('#background').show()
+        })
+        // 获取屏幕大小
+        const width = $(window).width()
+        const height = $(window).height()
+        init()
+        $('.drag').drag(function (ev, dd) {
+          let className = '.' + $(this)[0].className.split(' ')[1]
+          $(this).css({
+            top: dd.offsetY,
+            left: dd.offsetX,
+          })
+          // 层级对待
+          switch (className) {
+            case '.ditan':
+              $(className).css({
+                zIndex: 0,
+              })
+              $(this).css({
+                zIndex: 9,
+              })
+              break
+            case '.chuang':
+              $(className).css({
+                zIndex: 1,
+              })
+              $(this).css({
+                zIndex: 10,
+              })
+              break
+            case '.cszs':
+              $(className).css({
+                zIndex: 2,
+              })
+              $(this).css({
+                zIndex: 11,
+              })
+              break
+            case '.zhuangshi':
+              $(className).css({
+                zIndex: 2,
+              })
+              $(this).css({
+                zIndex: 11,
+              })
+              break
+            case '.shipin':
+              $(className).css({
+                zIndex: 2,
+              })
+              $(this).css({
+                zIndex: 11,
+              })
+              break
+            default:
+              $(className).css({
+                zIndex: 1,
+              })
+              $(this).css({
+                zIndex: 12,
+              })
+              break
+          }
+          console.log(dd.offsetY / height, dd.offsetX / width)
+          const x = width - dd.offsetX
+          const y = height - dd.offsetY
+          if (x < 60 || y < 60) {
+            $(this).hide()
+          }
+        })
+      })
+
+      function touchHandler(event) {
+        var touch = event.changedTouches[0]
+        var simulatedEvent = document.createEvent('MouseEvent')
+        simulatedEvent.initMouseEvent(
+          {
+            touchstart: 'mousedown',
+            touchmove: 'mousemove',
+            touchend: 'mouseup',
+          }[event.type],
+          true,
+          true,
+          window,
+          1,
+          touch.screenX,
+          touch.screenY,
+          touch.clientX,
+          touch.clientY,
+          false,
+          false,
+          false,
+          false,
+          0,
+          null
+        )
+
+        touch.target.dispatchEvent(simulatedEvent)
+        event.preventDefault()
+      }
+
+      function init() {
+        document.addEventListener('touchstart', touchHandler, true)
+        document.addEventListener('touchmove', touchHandler, true)
+        document.addEventListener('touchend', touchHandler, true)
+        document.addEventListener('touchcancel', touchHandler, true)
+      }
+    </script>
+  </body>
+</html>
